@@ -1,0 +1,9 @@
+linha = 1
+coluna = 1
+while linha <= 10: #enquanto a linha for menor= que 10
+    while coluna <= 10: #enquanto a coluna for menor= que 10
+        print(linha * coluna, end =" \t") #imprima a multiplicação da linha pela coluna = 1 * 1
+        coluna = coluna +1  #coluna recebe +1, passsa a valer 2. ex: 1(linha)* 2(coluna) = 2 até chegar na coluna 1*10 = 10
+    linha = linha +1     #linha recebe +1, passa a valer 2. 
+    print()
+    coluna = 1    # coluna volta a valer 1 para multiplicar a linha da tabuada do 2 = exemp: 2(linha)*1(coluna) = 2 até chegar 2*10 = 20
